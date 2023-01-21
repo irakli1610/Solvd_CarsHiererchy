@@ -1,0 +1,32 @@
+<Engines>
+<Engine>
+<engine_id>1</engine_id>
+<name>Kryotec 2-litre turbocharged diesel engine</name>
+<horsepower>485</horsepower>
+<consumption>11</consumption>
+</Engine>
+        <Engine>
+        <engine_id>2</engine_id>
+        <name>1.3-Litre turbocharged petrol engine</name>
+        <horsepower>385</horsepower>
+        <consumption>7</consumption>
+    </Engine>
+        <Engine>
+        <engine_id>3</engine_id>
+        <name>Smartstream G 1.4-litre turbo GDI</name>
+        <horsepower>425</horsepower>
+        <consumption>12</consumption>
+    </Engine>
+        <Engine>
+        <engine_id>4</engine_id>
+        <name>1.5-litre i-VTEC</name>
+        <horsepower>235</horsepower>
+        <consumption>6</consumption>
+    </Engine>
+        <Engine>
+        <engine_id>5</engine_id>
+        <name>Smartstream G 1.4-litre turbo GDI</name>
+        <horsepower>425</horsepower>
+        <consumption>12</consumption>
+    </Engine>
+</Engines>

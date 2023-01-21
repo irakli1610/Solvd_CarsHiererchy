@@ -1,0 +1,171 @@
+11:39:23.447 [main] INFO  main.ConnectionPool - java.io.FileNotFoundException: C:\Users\irakl\Desktop\javaTest\eclipse workspace\cars\src\main\resources\propertyFile (The system cannot find the file specified)
+11:39:23.452 [main] INFO  main.ConnectionPool - java.sql.SQLException: The url cannot be null
+11:39:23.452 [main] INFO  main.ConnectionPool - java.sql.SQLException: The url cannot be null
+11:39:23.452 [main] INFO  main.ConnectionPool - java.sql.SQLException: The url cannot be null
+11:39:23.453 [main] INFO  main.ConnectionPool - java.sql.SQLException: The url cannot be null
+11:39:23.453 [main] INFO  main.ConnectionPool - java.sql.SQLException: The url cannot be null
+11:41:00.049 [main] INFO  main.ConnectionPool - java.io.FileNotFoundException: C:\Users\irakl\Desktop\javaTest\eclipse workspace\cars\src\main\resources\propertyFile (The system cannot find the file specified)
+11:41:00.060 [main] INFO  main.ConnectionPool - java.sql.SQLException: The url cannot be null
+11:41:00.060 [main] INFO  main.ConnectionPool - java.sql.SQLException: The url cannot be null
+11:41:00.061 [main] INFO  main.ConnectionPool - java.sql.SQLException: The url cannot be null
+11:41:00.061 [main] INFO  main.ConnectionPool - java.sql.SQLException: The url cannot be null
+11:41:00.061 [main] INFO  main.ConnectionPool - java.sql.SQLException: The url cannot be null
+11:41:55.781 [main] INFO  main.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@18230356
+11:43:09.684 [main] INFO  main.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@18230356
+11:43:13.477 [main] INFO  main.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@18230356
+11:48:09.449 [main] INFO  main.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@18230356
+11:48:09.484 [main] INFO  main.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@18230356
+11:48:34.103 [main] INFO  main.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@18230356
+11:48:34.139 [main] INFO  main.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@18230356
+12:53:01.602 [main] INFO  main.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@18230356
+12:53:01.636 [main] INFO  main.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@18230356
+12:53:57.744 [main] INFO  main.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@18230356
+12:53:57.783 [main] INFO  main.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@18230356
+12:55:44.673 [main] INFO  main.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@18230356
+12:55:44.709 [main] INFO  main.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@18230356
+12:57:52.713 [main] INFO  main.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@18230356
+12:57:52.751 [main] INFO  main.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@18230356
+13:02:57.008 [main] INFO  main.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@18230356
+13:02:57.044 [main] INFO  main.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@18230356
+13:04:04.336 [main] INFO  main.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@18230356
+13:04:04.370 [main] INFO  main.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@18230356
+13:12:53.062 [main] INFO  main.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@18230356
+13:12:53.095 [main] INFO  main.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@18230356
+13:19:12.086 [main] INFO  main.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@18230356
+13:19:12.142 [main] INFO  main.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@18230356
+13:29:01.362 [main] INFO  main.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@18230356
+13:29:01.389 [main] INFO  main.ConnectionPool - ResultSet closed succesfully
+13:29:01.389 [main] INFO  main.ConnectionPool - PreparedStarement closed succesfully
+13:29:01.389 [main] INFO  main.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@18230356
+13:29:01.389 [main] INFO  main.ConnectionPool - Connection closed succesfully
+13:42:24.800 [main] INFO  main.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@18230356
+13:42:24.822 [main] INFO  jdbc.PersonImpl - ResultSet closed succesfully
+13:42:24.822 [main] INFO  jdbc.PersonImpl - PreparedStarement closed succesfully
+13:42:24.823 [main] INFO  main.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@18230356
+13:42:24.823 [main] INFO  jdbc.PersonImpl - Connection closed succesfully
+13:42:24.824 [main] INFO  main.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@18230356
+13:42:24.833 [main] INFO  jdbc.TiresImpl - ResultSet closed succesfully
+13:42:24.833 [main] INFO  jdbc.TiresImpl - PreparedStarement closed succesfully
+13:42:24.833 [main] INFO  main.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@18230356
+13:42:24.833 [main] INFO  jdbc.TiresImpl - Connection closed succesfully
+13:42:55.655 [main] INFO  main.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@18230356
+13:42:55.677 [main] INFO  jdbc.PersonImpl - ResultSet closed succesfully
+13:42:55.677 [main] INFO  jdbc.PersonImpl - PreparedStarement closed succesfully
+13:42:55.677 [main] INFO  main.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@18230356
+13:42:55.677 [main] INFO  jdbc.PersonImpl - Connection closed succesfully
+13:42:55.678 [main] INFO  main.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@18230356
+13:42:55.680 [main] INFO  jdbc.TiresImpl - ResultSet closed succesfully
+13:42:55.680 [main] INFO  jdbc.TiresImpl - PreparedStarement closed succesfully
+13:42:55.680 [main] INFO  main.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@18230356
+13:42:55.680 [main] INFO  jdbc.TiresImpl - Connection closed succesfully
+13:43:10.838 [main] INFO  main.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@18230356
+13:43:10.863 [main] INFO  jdbc.PersonImpl - ResultSet closed succesfully
+13:43:10.863 [main] INFO  jdbc.PersonImpl - PreparedStarement closed succesfully
+13:43:10.863 [main] INFO  main.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@18230356
+13:43:10.863 [main] INFO  jdbc.PersonImpl - Connection closed succesfully
+13:43:10.864 [main] INFO  main.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@18230356
+13:43:10.866 [main] INFO  jdbc.TiresImpl - ResultSet closed succesfully
+13:43:10.866 [main] INFO  jdbc.TiresImpl - PreparedStarement closed succesfully
+13:43:10.866 [main] INFO  main.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@18230356
+13:43:10.867 [main] INFO  jdbc.TiresImpl - Connection closed succesfully
+13:56:07.769 [main] INFO  main.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@d8305c2
+13:56:50.745 [main] INFO  main.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@d8305c2
+14:08:50.762 [main] INFO  main.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@d8305c2
+14:08:50.784 [main] INFO  jdbc.PersonImpl - person successfully inserted
+14:08:50.784 [main] INFO  jdbc.PersonImpl - PreparedStatement closed succesfully
+14:08:50.784 [main] INFO  main.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@d8305c2
+14:08:50.784 [main] INFO  jdbc.PersonImpl - Connection putback is successfull
+14:14:26.365 [main] INFO  main.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@d8305c2
+14:14:26.391 [main] ERROR jdbc.PersonImpl - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '35' for key 'person.PRIMARY'
+14:14:26.391 [main] INFO  jdbc.PersonImpl - PreparedStatement closed succesfully
+14:14:26.391 [main] INFO  main.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@d8305c2
+14:14:26.391 [main] INFO  jdbc.PersonImpl - Connection putback is successfull
+14:17:12.112 [main] INFO  main.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@75e91545
+14:17:12.136 [main] INFO  jdbc.TiresImpl - tires successfully inserted
+14:17:12.136 [main] INFO  jdbc.TiresImpl - PreparedStatement closed succesfully
+14:17:12.136 [main] INFO  main.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@75e91545
+14:17:12.136 [main] INFO  jdbc.TiresImpl - Connection putback is successfull
+14:23:45.438 [main] INFO  main.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@75e91545
+14:23:45.458 [main] ERROR jdbc.TiresImpl - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '22' for key 'tires.PRIMARY'
+14:23:45.458 [main] INFO  jdbc.TiresImpl - PreparedStatement closed succesfully
+14:23:45.458 [main] INFO  main.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@75e91545
+14:23:45.458 [main] INFO  jdbc.TiresImpl - Connection putback is successfull
+14:28:54.621 [main] INFO  main.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@75e91545
+14:28:54.640 [main] INFO  jdbc.TiresImpl - tires successfully inserted
+14:28:54.640 [main] INFO  jdbc.TiresImpl - PreparedStatement closed succesfully
+14:28:54.641 [main] INFO  main.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@75e91545
+14:28:54.641 [main] INFO  jdbc.TiresImpl - Connection putback is successfull
+14:29:20.982 [main] INFO  main.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@75e91545
+14:29:20.999 [main] INFO  jdbc.TiresImpl - tires successfully deleted
+14:29:21.000 [main] INFO  jdbc.TiresImpl - PreparedStatement closed succesfully
+14:29:21.000 [main] INFO  main.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@75e91545
+14:29:21.000 [main] INFO  jdbc.TiresImpl - Connection putback is successfull
+14:31:04.374 [main] INFO  main.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@d8305c2
+14:31:04.405 [main] INFO  jdbc.PersonImpl - person successfully deleted
+14:31:04.405 [main] INFO  jdbc.PersonImpl - PreparedStatement closed succesfully
+14:31:04.405 [main] INFO  main.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@d8305c2
+14:31:04.405 [main] INFO  jdbc.PersonImpl - Connection putback is successfull
+15:35:05.395 [main] INFO  main.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@d8305c2
+15:35:05.409 [main] INFO  jdbc.PersonImpl - person successfully deleted
+15:35:05.409 [main] INFO  jdbc.PersonImpl - PreparedStatement closed succesfully
+15:35:05.409 [main] INFO  main.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@d8305c2
+15:35:05.409 [main] INFO  jdbc.PersonImpl - Connection putback is successfull
+15:36:03.152 [main] INFO  main.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@d8305c2
+15:36:03.173 [main] INFO  jdbc.PersonImpl - person successfully updated
+15:36:03.174 [main] INFO  jdbc.PersonImpl - PreparedStatement closed succesfully
+15:36:03.174 [main] INFO  main.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@d8305c2
+15:36:03.174 [main] INFO  jdbc.PersonImpl - Connection putback is successfull
+15:40:52.342 [main] INFO  main.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@75e91545
+15:40:52.365 [main] INFO  jdbc.TiresImpl - tires successfully inserted
+15:40:52.365 [main] INFO  jdbc.TiresImpl - PreparedStatement closed succesfully
+15:40:52.365 [main] INFO  main.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@75e91545
+15:40:52.366 [main] INFO  jdbc.TiresImpl - Connection putback is successfull
+15:41:18.198 [main] INFO  main.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@75e91545
+15:41:18.222 [main] INFO  jdbc.TiresImpl - tires successfully updated
+15:41:18.222 [main] INFO  jdbc.TiresImpl - PreparedStatement closed succesfully
+15:41:18.222 [main] INFO  main.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@75e91545
+15:41:18.222 [main] INFO  jdbc.TiresImpl - Connection putback is successfull
+14:55:04.707 [main] INFO  utils.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@75e91545
+14:55:04.733 [main] INFO  jdbc.TiresImpl - tires successfully updated
+14:55:04.734 [main] INFO  jdbc.TiresImpl - PreparedStatement closed succesfully
+14:55:04.734 [main] INFO  utils.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@75e91545
+14:55:04.734 [main] INFO  jdbc.TiresImpl - Connection putback is successfull
+14:52:04.718 [main] INFO  utils.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@4fbda97b
+14:52:04.736 [main] INFO  dao.jdbc.PersonImpl - ResultSet closed succesfully
+14:52:04.737 [main] INFO  dao.jdbc.PersonImpl - PreparedStarement closed succesfully
+14:52:04.737 [main] INFO  utils.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@4fbda97b
+14:52:04.737 [main] INFO  dao.jdbc.PersonImpl - Connection putback is successfull
+14:57:33.605 [main] INFO  utils.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@4fbda97b
+14:57:33.622 [main] INFO  dao.jdbc.PersonImpl - ResultSet closed succesfully
+14:57:33.623 [main] INFO  dao.jdbc.PersonImpl - PreparedStarement closed succesfully
+14:57:33.623 [main] INFO  utils.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@4fbda97b
+14:57:33.623 [main] INFO  dao.jdbc.PersonImpl - Connection putback is successfull
+15:05:39.847 [main] INFO  utils.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5b07730f
+15:05:39.864 [main] INFO  dao.jdbc.PersonImpl - ResultSet closed succesfully
+15:05:39.864 [main] INFO  dao.jdbc.PersonImpl - PreparedStarement closed succesfully
+15:05:39.864 [main] INFO  utils.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5b07730f
+15:05:39.864 [main] INFO  dao.jdbc.PersonImpl - Connection putback is successfull
+15:09:28.001 [main] INFO  jaxb.JaxbPerson - enter id of person from databasse
+15:09:31.991 [main] INFO  utils.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@3dddefd8
+15:09:32.012 [main] INFO  dao.jdbc.PersonImpl - ResultSet closed succesfully
+15:09:32.012 [main] INFO  dao.jdbc.PersonImpl - PreparedStarement closed succesfully
+15:09:32.012 [main] INFO  utils.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@3dddefd8
+15:09:32.012 [main] INFO  dao.jdbc.PersonImpl - Connection putback is successfull
+17:06:52.432 [main] INFO  jaxb.JaxbPerson - enter id of person from databasse
+17:06:57.210 [main] INFO  utils.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@3dddefd8
+17:06:57.232 [main] INFO  dao.jdbc.PersonImpl - ResultSet closed succesfully
+17:06:57.233 [main] INFO  dao.jdbc.PersonImpl - PreparedStarement closed succesfully
+17:06:57.233 [main] INFO  utils.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@3dddefd8
+17:06:57.233 [main] INFO  dao.jdbc.PersonImpl - Connection putback is successfull
+17:07:55.464 [main] INFO  jaxb.JaxbPerson - enter id of person from databasse
+17:07:58.297 [main] INFO  utils.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@749c877b
+17:07:58.322 [main] INFO  dao.jdbc.PersonImpl - ResultSet closed succesfully
+17:07:58.322 [main] INFO  dao.jdbc.PersonImpl - PreparedStarement closed succesfully
+17:07:58.322 [main] INFO  utils.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@749c877b
+17:07:58.322 [main] INFO  dao.jdbc.PersonImpl - Connection putback is successfull
+17:08:07.853 [main] INFO  jaxb.JaxbPerson - enter id of person from databasse
+17:08:24.177 [main] INFO  utils.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@749c877b
+17:08:24.195 [main] INFO  dao.jdbc.PersonImpl - ResultSet closed succesfully
+17:08:24.195 [main] INFO  dao.jdbc.PersonImpl - PreparedStarement closed succesfully
+17:08:24.195 [main] INFO  utils.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@749c877b
+17:08:24.195 [main] INFO  dao.jdbc.PersonImpl - Connection putback is successfull

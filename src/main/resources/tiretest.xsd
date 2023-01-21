@@ -1,0 +1,21 @@
+
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="TiresEntity">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Tires" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:long" name="tire_id" />
+							<xs:element type="xs:int" name="number_of_tires"/>
+							<xs:element type="xs:int" name="tire_size"/>
+							<xs:element type="xs:string" name="tire_brand"/>
+						</xs:sequence>
+					</xs:complexType>
+					
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,87 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="CarsHierarchy">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Engines">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Engine" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:long" name="engine_id"/>
+                    <xs:element type="xs:string" name="name"/>
+                    <xs:element type="xs:int" name="horsepower"/>
+                    <xs:element type="xs:int" name="consumption"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GearBoxes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GearBox" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:long" name="gearbox_id"/>
+                    <xs:element type="xs:int" name="number_of_gears"/>
+                    <xs:element type="xs:string" name="type_of_gearbox"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TiresEntity">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Tires" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:long" name="tire_id"/>
+                    <xs:element type="xs:int" name="number_of_tires"/>
+                    <xs:element type="xs:int" name="tire_size"/>
+                    <xs:element type="xs:string" name="tire_brang"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ServicedCarsList">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ServicedCars" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:long" name="serviced_car_id"/>
+                    <xs:element type="xs:long" name="car_service-id"/>
+                    <xs:element type="xs:long" name="cars_list_id"/>
+                    <xs:element type="xs:short" name="price"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="persons">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Person" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:long" name="person_id"/>
+                    <xs:element type="xs:string" name="first_name"/>
+                    <xs:element type="xs:string" name="last_name"/>
+                    <xs:element type="xs:int" name="age"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

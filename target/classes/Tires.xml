@@ -1,0 +1,33 @@
+
+<TiresEntity>
+    <Tires>
+        <tire_id></tire_id>
+        <number_of_tires></number_of_tires>
+        <tire_size></tire_size>
+        <tire_brang></tire_brang>
+    </Tires>
+        <Tires>
+        <tire_id></tire_id>
+        <number_of_tires></number_of_tires>
+        <tire_size></tire_size>
+        <tire_brang></tire_brang>
+    </Tires>
+        <Tires>
+        <tire_id></tire_id>
+        <number_of_tires></number_of_tires>
+        <tire_size></tire_size>
+        <tire_brang></tire_brang>
+    </Tires>
+        <Tires>
+        <tire_id></tire_id>
+        <number_of_tires></number_of_tires>
+        <tire_size></tire_size>
+        <tire_brang></tire_brang>
+    </Tires>
+        <Tires>
+        <tire_id></tire_id>
+        <number_of_tires></number_of_tires>
+        <tire_size></tire_size>
+        <tire_brang></tire_brang>
+    </Tires>
+</TiresEntity>

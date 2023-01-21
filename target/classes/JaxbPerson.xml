@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<JaxbPerson>
+    <age>25</age>
+    <firstName>irakli</firstName>
+    <lastName>nacvlishvili</lastName>
+    <personId>5</personId>
+</JaxbPerson>

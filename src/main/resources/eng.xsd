@@ -1,0 +1,19 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Engines">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Engine" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:long" name="engine_id"></xs:element>
+							<xs:element type="xs:string" name="name"></xs:element>
+							<xs:element type="xs:int" name="horsepower"></xs:element>
+							<xs:element type="xs:int" name="consumption"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+		
+	</xs:element>
+</xs:schema>
