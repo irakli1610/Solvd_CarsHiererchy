@@ -169,3 +169,12 @@
 17:08:24.195 [main] INFO  dao.jdbc.PersonImpl - PreparedStarement closed succesfully
 17:08:24.195 [main] INFO  utils.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@749c877b
 17:08:24.195 [main] INFO  dao.jdbc.PersonImpl - Connection putback is successfull
+16:57:44.604 [main] INFO  jaxb.JaxbPerson - enter id of person from databasse
+16:57:48.649 [main] INFO  utils.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@749c877b
+16:57:48.669 [main] INFO  dao.jdbc.PersonImpl - ResultSet closed succesfully
+16:57:48.669 [main] INFO  dao.jdbc.PersonImpl - PreparedStarement closed succesfully
+16:57:48.669 [main] INFO  utils.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@749c877b
+16:57:48.669 [main] INFO  dao.jdbc.PersonImpl - Connection putback is successfull
+15:19:40.775 [main] INFO  jaxb.JaxbPerson - enter id of person from databasse
+15:20:33.355 [main] INFO  jaxb.JaxbEngine - enter id of engine from databasse
+15:20:50.069 [main] INFO  jaxb.JaxbEngine - enter id of engine from databasse

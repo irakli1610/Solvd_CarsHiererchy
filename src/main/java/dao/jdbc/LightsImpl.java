@@ -18,20 +18,20 @@ public class LightsImpl extends MySqlDao implements ILights {
 
 
 
-	public Lights readEntityById(int id) throws SQLException {
+	public Lights readEntityById(int id)  {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public void deleteEntityById(int id) throws SQLException {
+	public void deleteEntityById(int id)  {
 		// TODO Auto-generated method stub
 		
 	}
 
 
 	@Override
-	public void updateEntityById(int id, Lights t) throws SQLException {
+	public void updateEntityById(int id, Lights t)  {
 		// TODO Auto-generated method stub
 		
 	}

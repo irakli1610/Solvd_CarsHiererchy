@@ -1,5 +1,7 @@
 package models;
 
+import javax.xml.bind.annotation.XmlElement;
+
 public class Cars {
 
 	private long carsListId;
@@ -9,9 +11,9 @@ public class Cars {
 	private long carPartsId;
 	private long carShopsId;
 	private long carOwnerId;
-	
-	public Cars(long carsListId, String carModel, long relaseYear, long carsSystemsId, long carPartsId,
-			long carShopsId, long carOwnerId) {
+
+	public Cars(long carsListId, String carModel, long relaseYear, long carsSystemsId, long carPartsId, long carShopsId,
+			long carOwnerId) {
 		this.carsListId = carsListId;
 		this.carModel = carModel;
 		this.relaseYear = relaseYear;
@@ -21,8 +23,10 @@ public class Cars {
 		this.carOwnerId = carOwnerId;
 	}
 
-	public Cars() {}
+	public Cars() {
+	}
 
+	@XmlElement
 	public long getCarsListId() {
 		return carsListId;
 	}
@@ -31,6 +35,7 @@ public class Cars {
 		this.carsListId = carsListId;
 	}
 
+	@XmlElement
 	public String getCarModel() {
 		return carModel;
 	}
@@ -39,6 +44,7 @@ public class Cars {
 		this.carModel = carModel;
 	}
 
+	@XmlElement
 	public long getRelaseYear() {
 		return relaseYear;
 	}
@@ -47,6 +53,7 @@ public class Cars {
 		this.relaseYear = relaseYear;
 	}
 
+	@XmlElement
 	public long getCarsSystemsId() {
 		return carsSystemsId;
 	}
@@ -55,6 +62,7 @@ public class Cars {
 		this.carsSystemsId = carsSystemsId;
 	}
 
+	@XmlElement
 	public long getCarPartsId() {
 		return carPartsId;
 	}
@@ -63,6 +71,7 @@ public class Cars {
 		this.carPartsId = carPartsId;
 	}
 
+	@XmlElement
 	public long getCarShopsId() {
 		return carShopsId;
 	}
@@ -71,6 +80,7 @@ public class Cars {
 		this.carShopsId = carShopsId;
 	}
 
+	@XmlElement
 	public long getCarOwnerId() {
 		return carOwnerId;
 	}
@@ -128,7 +138,5 @@ public class Cars {
 			return false;
 		return true;
 	};
-	
-	
-	
+
 }

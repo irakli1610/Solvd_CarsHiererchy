@@ -1,5 +1,8 @@
 package models;
 
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+@XmlRootElement(name = "JaxbEngine")
 public class Engine {
 
 	private long engineId;
@@ -15,7 +18,7 @@ public class Engine {
 	}
 
 	public Engine() {}
-
+	@XmlElement
 	public long getEngineId() {
 		return engineId;
 	}
@@ -23,7 +26,7 @@ public class Engine {
 	public void setEngineId(long engineId) {
 		this.engineId = engineId;
 	}
-
+	@XmlElement
 	public String getName() {
 		return name;
 	}
@@ -31,7 +34,7 @@ public class Engine {
 	public void setName(String name) {
 		this.name = name;
 	}
-
+	@XmlElement
 	public int getHorsepower() {
 		return horsepower;
 	}
@@ -39,7 +42,7 @@ public class Engine {
 	public void setHorsepower(int horsepower) {
 		this.horsepower = horsepower;
 	}
-
+	@XmlElement
 	public int getConsumption() {
 		return consumption;
 	}

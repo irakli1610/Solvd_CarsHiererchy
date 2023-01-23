@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <JaxbPerson>
-    <age>21</age>
-    <firstName>beqa</firstName>
-    <lastName>dzagania</lastName>
-    <personId>3</personId>
+    <age>25</age>
+    <firstName>irakli</firstName>
+    <lastName>nacvlishvili</lastName>
+    <personId>5</personId>
 </JaxbPerson>

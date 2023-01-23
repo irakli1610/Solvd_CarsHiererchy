@@ -1,12 +1,16 @@
 package models;
 
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement(name = "JaxbTires")
 public class Tires {
 
 	private long tireId;
 	private int numberOfTires;
 	private int tireSize;
 	private String tireBrand;
-	
+
 	public Tires(long tireId, int numberOfTires, int tireSize, String tireBrand) {
 		this.tireId = tireId;
 		this.numberOfTires = numberOfTires;
@@ -14,8 +18,10 @@ public class Tires {
 		this.tireBrand = tireBrand;
 	}
 
-	public Tires() {}
+	public Tires() {
+	}
 
+	@XmlElement
 	public long getTireId() {
 		return tireId;
 	}
@@ -24,6 +30,7 @@ public class Tires {
 		this.tireId = tireId;
 	}
 
+	@XmlElement
 	public int getNumberOfTires() {
 		return numberOfTires;
 	}
@@ -32,6 +39,7 @@ public class Tires {
 		this.numberOfTires = numberOfTires;
 	}
 
+	@XmlElement
 	public int getTireSize() {
 		return tireSize;
 	}
@@ -40,6 +48,7 @@ public class Tires {
 		this.tireSize = tireSize;
 	}
 
+	@XmlElement
 	public String getTireBrand() {
 		return tireBrand;
 	}
@@ -87,6 +96,5 @@ public class Tires {
 			return false;
 		return true;
 	};
-	
-	
+
 }

@@ -1,5 +1,9 @@
 package models;
 
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+@XmlRootElement(name = "JaxbTires")
+
 public class Lights {
 
 	private long lightsId;
@@ -19,7 +23,7 @@ public class Lights {
 	}
 
 	public Lights() {}
-
+	@XmlElement
 	public long getLightsId() {
 		return lightsId;
 	}
@@ -27,7 +31,7 @@ public class Lights {
 	public void setLightsId(long lightsId) {
 		this.lightsId = lightsId;
 	}
-
+	@XmlElement
 	public byte getFrontLights() {
 		return frontLights;
 	}
@@ -35,7 +39,7 @@ public class Lights {
 	public void setFrontLights(byte frontLights) {
 		this.frontLights = frontLights;
 	}
-
+	@XmlElement
 	public byte getBackLights() {
 		return backLights;
 	}
@@ -43,7 +47,7 @@ public class Lights {
 	public void setBackLights(byte backLights) {
 		this.backLights = backLights;
 	}
-
+	@XmlElement
 	public byte getTurnLights() {
 		return turnLights;
 	}
@@ -51,7 +55,7 @@ public class Lights {
 	public void setTurnLights(byte turnLights) {
 		this.turnLights = turnLights;
 	}
-
+	@XmlElement
 	public byte getStopLights() {
 		return stopLights;
 	}
@@ -59,7 +63,7 @@ public class Lights {
 	public void setStopLights(byte stopLights) {
 		this.stopLights = stopLights;
 	}
-
+	@XmlElement
 	public byte getFogLights() {
 		return fogLights;
 	}

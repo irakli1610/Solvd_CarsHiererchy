@@ -14,20 +14,22 @@ import jaxb.*;
 
 
 
-//for Jaxb example i used person class from models and personImpl from dao/jdbc. it has loggers and allows us 
-// too create Xml file for any person from our database. to do that we just need to provide correct person_id
-// from our database.
+// in dao/jdbc only personsimpl and tiresimpl has fully defined methods, others are for visualization
 public class Main {
 
 	public static void main(String[] args) throws JAXBException  {
 
 		JaxbPerson jaxbpers = new JaxbPerson();
-		jaxbpers.marshall();
 		
-		jaxbpers.unmarshall();
+		
+		
+		jaxbengine.marshall();
+		
+		jaxbengine.unmarshall();
 		
 	
-		
+	
+
 		
 		
 	// dom xml testing

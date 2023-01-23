@@ -1,15 +1,16 @@
 package models;
 
-import javax.xml.bind.annotation.*;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement(name="JaxbPerson")
+@XmlRootElement(name = "JaxbPerson")
 public class Person {
 
 	private long personId;
 	private String firstName;
 	private String lastName;
 	private int age;
-	
+
 	public Person(long personId, String firstName, String lastName, int age) {
 		this.personId = personId;
 		this.firstName = firstName;
@@ -17,7 +18,8 @@ public class Person {
 		this.age = age;
 	}
 
-	public Person() {}
+	public Person() {
+	}
 
 	@XmlElement
 	public long getPersonId() {
@@ -27,6 +29,7 @@ public class Person {
 	public void setPersonId(long personId) {
 		this.personId = personId;
 	}
+
 	@XmlElement
 	public String getFirstName() {
 		return firstName;
@@ -44,7 +47,7 @@ public class Person {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-	
+
 	@XmlElement
 	public int getAge() {
 		return age;
@@ -96,6 +99,5 @@ public class Person {
 			return false;
 		return true;
 	};
-	
-	
+
 }
