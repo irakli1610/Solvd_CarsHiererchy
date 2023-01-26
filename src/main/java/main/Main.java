@@ -6,26 +6,144 @@ import javax.xml.parsers.*;
 import org.w3c.dom.*;
 import org.xml.sax.SAXException;
 
+import com.fasterxml.jackson.core.exc.StreamReadException;
+import com.fasterxml.jackson.databind.DatabindException;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 import java.io.*;
+import java.util.Iterator;
+
 import javax.xml.transform.*;
 import javax.xml.transform.dom.*;
 import javax.xml.transform.stream.*;
 import jaxb.*;
+import models.Person;
+import utils.Author;
+import utils.BookModelForJsonParsing;
+import utils.ConnectionPool;
 
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 
 // in dao/jdbc only personsimpl and tiresimpl has fully defined methods, others are for visualization
+
+
+//json reading is down in this main class
 public class Main {
 
-	public static void main(String[] args) throws JAXBException  {
+	public static void main(String[] args) throws JAXBException, IOException, ParseException  {
 
-		JaxbPerson jaxbpers = new JaxbPerson();
+	    final Logger LOGGER = LogManager.getLogger(Main.class);
+		
+
+		
+		// --- JACKSON --- //
+	    		
+	    
+	    		Author author = new Author("j.k.","rowling");
+	    		String[] subtitles = {"water","earth","fire","air"};
+	    		BookModelForJsonParsing bookmodel = new BookModelForJsonParsing("samplebook",476,true,subtitles,author);
+	    		
+	    		
+	    		Person person = new Person(5, "murad","beridze",24);
+	    
+	    
+	    		File bookmodeldest = new File("src\\main\\resources\\bookmodel.son");
+				File personJson = new File("src\\main\\resources\\jsonPerson.son");
+				
+				
+				
+				
+				ObjectMapper objectmapper = new ObjectMapper();
+				
+				try {
+
+					objectmapper.writeValue(personJson, person);
+					Person person1 = objectmapper.readValue(personJson, Person.class);
+					LOGGER.info(person1.getFirstName());
+					
+					JsonNode persNode =objectmapper.readTree(personJson);
+					LOGGER.info(persNode.get("age"));
+
+					
+					
+					
+					
+					objectmapper.writeValue(bookmodeldest, bookmodel);
+					
+					BookModelForJsonParsing retrieved = objectmapper.readValue(bookmodeldest, BookModelForJsonParsing.class);
+					LOGGER.info(retrieved.getName());
+					LOGGER.info(retrieved.getSize());
+					LOGGER.info(retrieved.getSubtitles()[1]);
+					LOGGER.info(retrieved.getAuthors().getName());
+					LOGGER.info(retrieved.getAuthors().getSurname());
+				
+				} catch (StreamReadException e) {
+					LOGGER.error(e);
+				} catch (DatabindException e) {
+					LOGGER.error(e);
+				} catch (IOException e) {
+					LOGGER.error(e);
+				}
 		
 		
 		
-		jaxbengine.marshall();
 		
-		jaxbengine.unmarshall();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+//		//json reading
+//		
+//		JSONParser jsonparser = new JSONParser();
+//		FileReader reader = new FileReader(".\\src\\main\\resources\\jsonTest.json");
+//		
+//		Object object =jsonparser.parse(reader); 
+//		JSONObject bookObject=(JSONObject)object;
+//		
+//		String title =(String) bookObject.get("title");
+//		Long relase_year = (Long) bookObject.get("relase year");
+//		JSONArray authors = (JSONArray) bookObject.get("author");
+//		JSONObject jsonObject =  (JSONObject) bookObject.get("subtitles");
+//		
+//		
+//		LOGGER.info(jsonObject.get("subtitle_1"));
+//		LOGGER.info(jsonObject.get("subtitle_2"));
+//		LOGGER.info(jsonObject.get("subtitle_3"));
+//		LOGGER.info(jsonObject.get("subtitle_4"));
+//
+//		
+//		for (int i = 0; i < authors.size(); i++) {
+//			System.out.println(authors.get(i));
+//		}
+//
+//		LOGGER.info(title);
+//		LOGGER.info(relase_year);
+//		
+		
+		
+		
+		
+//	//	jaxb example
+//		
+//		JaxbPerson jaxbpers = new JaxbPerson();
+//		
+//		
+//		
+//		jaxbpers.marshall();
+//		
+//		jaxbpers.unmarshall();
 		
 	
 	
@@ -42,7 +160,7 @@ public class Main {
 //			DocumentBuilder docBuilder = docBuildFactory.newDocumentBuilder();
 //			Document document = docBuilder.parse(xmlFile);
 //			
-//			System.out.println(document.getDocumentElement().getNodeName());
+//			LOGGER.info(document.getDocumentElement().getNodeName());
 //			
 //			NodeList nList=document.getElementsByTagName("engine_id");
 //			NodeList nList2=document.getElementsByTagName("name");
@@ -61,11 +179,11 @@ public class Main {
 //
 //				if(nNode.getNodeType()==Node.ELEMENT_NODE) {
 //					
-//				//	System.out.println(nNode.getChildNodes());
-//					System.out.println("engine_id:   "+ nNode.getTextContent());
-//					System.out.println("name:   "+nNode2.getTextContent());
-//					System.out.println("horsepower:   "+nNode3.getTextContent());
-//					System.out.println("consumption:   "+nNode4.getTextContent());
+//				//	LOGGER.info(nNode.getChildNodes());
+//					LOGGER.info("engine_id:   "+ nNode.getTextContent());
+//					LOGGER.info("name:   "+nNode2.getTextContent());
+//					LOGGER.info("horsepower:   "+nNode3.getTextContent());
+//					LOGGER.info("consumption:   "+nNode4.getTextContent());
 //
 //					
 //				}
@@ -104,7 +222,7 @@ public class Main {
 		
 		
 //		Person person = pers.readEntityById(4);
-//		System.out.println(person.getFirstName());
+//		LOGGER.info(person.getFirstName());
 		
 //		
 //	
@@ -115,7 +233,7 @@ public class Main {
 //		tiretest.deleteEntityById(22);
 //		Tires tire=tires.readEntityById(2);
 //		
-//		System.out.println(tire);
+//		LOGGER.info(tire);
 		
 		
 		
@@ -139,9 +257,9 @@ public class Main {
 //	        url = p.getProperty("url");
 //	        user = p.getProperty("user");
 //	        password = p.getProperty("password");
-//	System.out.println(user);	
-//	System.out.println(password);
-//	System.out.println(url);
+//	LOGGER.info(user);	
+//	LOGGER.info(password);
+//	LOGGER.info(url);
 //	
 
 	

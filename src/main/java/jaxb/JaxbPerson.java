@@ -51,11 +51,11 @@ public class JaxbPerson {
 			Unmarshaller unmarshaller = jaxbcont.createUnmarshaller();
 			Person pers = (Person) unmarshaller.unmarshal(new File(path));
 
-			System.out.println("object information");
-			System.out.println("person id: " + pers.getPersonId());
-			System.out.println("first name : " + pers.getFirstName());
-			System.out.println("last name: " + pers.getLastName());
-			System.out.println("age: " + pers.getAge());
+			LOGGER.info("object information");
+			LOGGER.info("person id: " + pers.getPersonId());
+			LOGGER.info("first name : " + pers.getFirstName());
+			LOGGER.info("last name: " + pers.getLastName());
+			LOGGER.info("age: " + pers.getAge());
 
 		} catch (JAXBException e) {
 			LOGGER.error(e);

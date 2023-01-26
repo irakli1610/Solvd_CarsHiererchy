@@ -178,3 +178,27 @@
 15:19:40.775 [main] INFO  jaxb.JaxbPerson - enter id of person from databasse
 15:20:33.355 [main] INFO  jaxb.JaxbEngine - enter id of engine from databasse
 15:20:50.069 [main] INFO  jaxb.JaxbEngine - enter id of engine from databasse
+16:02:58.701 [main] INFO  jaxb.JaxbPerson - enter id of person from databasse
+16:03:06.149 [main] INFO  utils.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@749c877b
+16:03:06.168 [main] INFO  dao.jdbc.PersonImpl - ResultSet closed succesfully
+16:03:06.168 [main] INFO  dao.jdbc.PersonImpl - PreparedStarement closed succesfully
+16:03:06.168 [main] INFO  utils.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@749c877b
+16:03:06.168 [main] INFO  dao.jdbc.PersonImpl - Connection putback is successfull
+20:10:21.347 [main] INFO  jaxb.JaxbPerson - enter id of person from databasse
+20:10:30.534 [main] INFO  utils.ConnectionPool - The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@749c877b
+20:10:30.553 [main] INFO  dao.jdbc.PersonImpl - ResultSet closed succesfully
+20:10:30.553 [main] INFO  dao.jdbc.PersonImpl - PreparedStarement closed succesfully
+20:10:30.553 [main] INFO  utils.ConnectionPool - Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@749c877b
+20:10:30.553 [main] INFO  dao.jdbc.PersonImpl - Connection putback is successfull
+20:10:30.714 [main] INFO  jaxb.JaxbPerson - object information
+20:10:30.714 [main] INFO  jaxb.JaxbPerson - person id: 3
+20:10:30.714 [main] INFO  jaxb.JaxbPerson - first name : beqa
+20:10:30.714 [main] INFO  jaxb.JaxbPerson - last name: dzagania
+20:10:30.714 [main] INFO  jaxb.JaxbPerson - age: 21
+20:30:35.214 [main] INFO  main.Main - murad
+20:30:35.232 [main] INFO  main.Main - 24
+20:30:35.251 [main] INFO  main.Main - samplebook
+20:30:35.251 [main] INFO  main.Main - 476
+20:30:35.251 [main] INFO  main.Main - earth
+20:30:35.252 [main] INFO  main.Main - j.k.
+20:30:35.252 [main] INFO  main.Main - rowling
