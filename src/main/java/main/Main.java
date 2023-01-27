@@ -18,11 +18,16 @@ import javax.xml.transform.*;
 import javax.xml.transform.dom.*;
 import javax.xml.transform.stream.*;
 import jaxb.*;
+import mappers.CarOwnerMapper;
+import mappers.PersonMapper;
 import models.Person;
 import utils.Author;
 import utils.BookModelForJsonParsing;
 import utils.ConnectionPool;
 
+import org.apache.ibatis.io.Resources;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.json.simple.JSONArray;
@@ -41,55 +46,65 @@ public class Main {
 	    final Logger LOGGER = LogManager.getLogger(Main.class);
 		
 
+	    
+	    
+//	    
+//	    PersonMapper personMyBatis = new PersonMapper();
+//	    personMyBatis.getALLPersons();
+	    
+	    CarOwnerMapper carOwnerMyBatis = new CarOwnerMapper();
+	    
+	    carOwnerMyBatis.getALLCarOwners();
+
 		
-		// --- JACKSON --- //
-	    		
-	    
-	    		Author author = new Author("j.k.","rowling");
-	    		String[] subtitles = {"water","earth","fire","air"};
-	    		BookModelForJsonParsing bookmodel = new BookModelForJsonParsing("samplebook",476,true,subtitles,author);
-	    		
-	    		
-	    		Person person = new Person(5, "murad","beridze",24);
-	    
-	    
-	    		File bookmodeldest = new File("src\\main\\resources\\bookmodel.son");
-				File personJson = new File("src\\main\\resources\\jsonPerson.son");
-				
-				
-				
-				
-				ObjectMapper objectmapper = new ObjectMapper();
-				
-				try {
-
-					objectmapper.writeValue(personJson, person);
-					Person person1 = objectmapper.readValue(personJson, Person.class);
-					LOGGER.info(person1.getFirstName());
-					
-					JsonNode persNode =objectmapper.readTree(personJson);
-					LOGGER.info(persNode.get("age"));
-
-					
-					
-					
-					
-					objectmapper.writeValue(bookmodeldest, bookmodel);
-					
-					BookModelForJsonParsing retrieved = objectmapper.readValue(bookmodeldest, BookModelForJsonParsing.class);
-					LOGGER.info(retrieved.getName());
-					LOGGER.info(retrieved.getSize());
-					LOGGER.info(retrieved.getSubtitles()[1]);
-					LOGGER.info(retrieved.getAuthors().getName());
-					LOGGER.info(retrieved.getAuthors().getSurname());
-				
-				} catch (StreamReadException e) {
-					LOGGER.error(e);
-				} catch (DatabindException e) {
-					LOGGER.error(e);
-				} catch (IOException e) {
-					LOGGER.error(e);
-				}
+//		// --- JACKSON --- //
+//	    		
+//	    
+//	    		Author author = new Author("j.k.","rowling");
+//	    		String[] subtitles = {"water","earth","fire","air"};
+//	    		BookModelForJsonParsing bookmodel = new BookModelForJsonParsing("samplebook",476,true,subtitles,author);
+//	    		
+//	    		
+//	    		Person person = new Person(5, "murad","beridze",24);
+//	    
+//	    
+//	    		File bookmodeldest = new File("src\\main\\resources\\bookmodel.son");
+//				File personJson = new File("src\\main\\resources\\jsonPerson.son");
+//				
+//				
+//				
+//				
+//				ObjectMapper objectmapper = new ObjectMapper();
+//				
+//				try {
+//
+//					objectmapper.writeValue(personJson, person);
+//					Person person1 = objectmapper.readValue(personJson, Person.class);
+//					LOGGER.info(person1.getFirstName());
+//					
+//					JsonNode persNode =objectmapper.readTree(personJson);
+//					LOGGER.info(persNode.get("age"));
+//
+//					
+//					
+//					
+//					
+//					objectmapper.writeValue(bookmodeldest, bookmodel);
+//					
+//					BookModelForJsonParsing retrieved = objectmapper.readValue(bookmodeldest, BookModelForJsonParsing.class);
+//					LOGGER.info(retrieved.getName());
+//					LOGGER.info(retrieved.getSize());
+//					LOGGER.info(retrieved.getSubtitles()[1]);
+//					LOGGER.info(retrieved.getAuthors().getName());
+//					LOGGER.info(retrieved.getAuthors().getSurname());
+//				
+//				} catch (StreamReadException e) {
+//					LOGGER.error(e);
+//				} catch (DatabindException e) {
+//					LOGGER.error(e);
+//				} catch (IOException e) {
+//					LOGGER.error(e);
+//				}
 		
 		
 		

@@ -202,3 +202,418 @@
 20:30:35.251 [main] INFO  main.Main - earth
 20:30:35.252 [main] INFO  main.Main - j.k.
 20:30:35.252 [main] INFO  main.Main - rowling
+11:26:39.202 [main] INFO  main.Main - murad
+11:26:39.231 [main] INFO  main.Main - 24
+11:26:39.255 [main] INFO  main.Main - samplebook
+11:26:39.257 [main] INFO  main.Main - 476
+11:26:39.258 [main] INFO  main.Main - earth
+11:26:39.259 [main] INFO  main.Main - j.k.
+11:26:39.260 [main] INFO  main.Main - rowling
+11:26:39.820 [main] INFO  main.Main - murad
+11:26:39.836 [main] INFO  main.Main - 24
+11:26:39.852 [main] INFO  main.Main - samplebook
+11:26:39.853 [main] INFO  main.Main - 476
+11:26:39.853 [main] INFO  main.Main - earth
+11:26:39.853 [main] INFO  main.Main - j.k.
+11:26:39.853 [main] INFO  main.Main - rowling
+19:14:24.940 [main] ERROR utils.ConnectionPool - java.io.IOException: Could not find resource src/main/resources/mybatis-config.xml
+19:15:05.920 [main] ERROR utils.ConnectionPool - java.io.IOException: Could not find resource src\main\resources\mybatis-config.xml
+19:19:12.340 [main] ERROR utils.ConnectionPool - java.io.IOException: Could not find resource src\main\resources\mybatis-config.xml
+19:19:44.204 [main] ERROR utils.MyBatisUtil - java.io.IOException: Could not find resource src\main\resources\mybatis-config.xml
+19:21:58.770 [main] ERROR utils.MyBatisUtil - java.io.IOException: Could not find resource src\main\resources\mybatis-config.xml
+19:22:07.759 [main] ERROR utils.MyBatisUtil - java.io.IOException: Could not find resource src\main\resources\mybatis-config.xml
+19:23:48.460 [main] ERROR utils.MyBatisUtil - java.io.IOException: Could not find resource C:\Users\irakl\Desktop\javaTest\eclipse workspace\cars\src\main\resources\mybatis-config.xml
+19:24:47.888 [main] ERROR utils.MyBatisUtil - java.io.IOException: Could not find resource src/main/resources/mybatis-config.xml
+19:26:56.794 [main] ERROR utils.MyBatisUtil - java.io.IOException: Could not find resource src/main/resources/mybatis-config.xml
+19:28:07.747 [main] ERROR utils.MyBatisUtil - java.io.IOException: Could not find resource src/main/resources/mybatis-config.xml
+19:28:18.535 [main] ERROR utils.MyBatisUtil - java.io.IOException: Could not find resource src/main/resources/mybatis-config.xml
+19:29:18.140 [main] ERROR utils.MyBatisUtil - java.io.IOException: Could not find resource src/main/resources/mybatis-config.xml
+19:29:36.441 [main] ERROR utils.MyBatisUtil - java.io.IOException: Could not find resource src\main\resources\mybatis-config.xml
+19:30:16.581 [main] ERROR utils.MyBatisUtil - java.io.IOException: Could not find resource src\main\resources\mybatisConfig.xml
+19:30:27.848 [main] ERROR utils.MyBatisUtil - java.io.IOException: Could not find resource src\main\resources\mybatis-config.xml
+19:33:10.550 [main] ERROR utils.MyBatisUtil - java.io.IOException: Could not find resource src/main/resources/mybatis-config.xml
+20:05:39.323 [main] ERROR utils.MyBatisUtil - java.io.IOException: Could not find resource src/main/resources/mybatis-config.xml
+20:29:58.230 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+20:29:58.243 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:29:58.243 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:30:49.634 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+20:30:49.646 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:30:49.647 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:31:11.257 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+20:31:11.268 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:31:11.269 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:34:31.224 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+20:34:31.236 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:34:31.236 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:34:44.688 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+20:34:44.700 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:34:44.701 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:40:57.823 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+20:40:57.836 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:40:57.836 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:43:26.587 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+20:43:26.599 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:43:26.599 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:43:26.600 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:43:26.600 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:43:41.386 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+20:43:41.398 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:43:41.398 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:43:41.398 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:43:41.398 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:43:41.455 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+20:44:29.158 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+20:44:29.171 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:44:29.171 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:44:29.171 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:44:29.172 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:44:29.223 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+20:45:01.466 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+20:45:01.478 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:45:01.479 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:45:01.479 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:45:01.479 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:45:01.524 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+20:45:01.907 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1713605602.
+20:45:01.908 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@66238be2]
+20:45:01.915 [main] DEBUG src/main/java/mappers/PersonMapper.selectAllPersons - ==>  Preparing: SELECT * FROM person
+20:45:01.939 [main] DEBUG src/main/java/mappers/PersonMapper.selectAllPersons - ==> Parameters: 
+20:45:01.973 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==    Columns: person_id, first_name, last_name, age
+20:45:01.973 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 1, shio, makatsaria, 26
+20:45:43.987 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+20:45:43.999 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:45:43.999 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:45:43.999 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:45:43.999 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:45:44.050 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+20:45:44.410 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 102103410.
+20:45:44.412 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@615f972]
+20:45:44.417 [main] DEBUG src/main/java/mappers/PersonMapper.selectAllPersons - ==>  Preparing: SELECT * FROM person
+20:45:44.443 [main] DEBUG src/main/java/mappers/PersonMapper.selectAllPersons - ==> Parameters: 
+20:45:44.467 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==    Columns: person_id, first_name, last_name, age
+20:45:44.467 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 1, shio, makatsaria, 26
+20:49:57.896 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+20:49:57.910 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:49:57.910 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:49:57.910 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:49:57.911 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:49:57.956 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+20:49:58.304 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 102103410.
+20:49:58.305 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@615f972]
+20:49:58.311 [main] DEBUG src/main/java/mappers/PersonMapper.selectAllPersons - ==>  Preparing: SELECT * FROM person
+20:49:58.340 [main] DEBUG src/main/java/mappers/PersonMapper.selectAllPersons - ==> Parameters: 
+20:49:58.361 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==    Columns: person_id, first_name, last_name, age
+20:49:58.362 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 1, shio, makatsaria, 26
+20:50:33.287 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+20:50:33.299 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:50:33.300 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:50:33.300 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:50:33.301 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+20:50:33.345 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+20:50:33.710 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1894144426.
+20:50:33.711 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@70e659aa]
+20:50:33.717 [main] DEBUG src/main/java/mappers/PersonMapper.selectAllPersons - ==>  Preparing: SELECT * FROM person
+20:50:33.742 [main] DEBUG src/main/java/mappers/PersonMapper.selectAllPersons - ==> Parameters: 
+20:50:33.763 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==    Columns: person_id, first_name, last_name, age
+20:50:33.763 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 1, shio, makatsaria, 26
+20:50:33.771 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 2, giorgi, afshilava, 48
+20:50:33.771 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 3, beqa, dzagania, 21
+20:50:33.771 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 4, nodari, marabdeli, 19
+20:50:33.771 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 5, irakli, nacvlishvili, 25
+20:50:33.771 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 6, miriani, mukeria, 29
+20:50:33.772 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 7, giorgi, ghulatava, 46
+20:50:33.772 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 8, shota, shiolashvili, 63
+20:50:33.772 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 9, nika, baratashvili, 46
+20:50:33.772 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 10, achi, sherozia, 35
+20:50:33.773 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 11, erekle, gulia, 27
+20:50:33.773 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 12, sulxani, bzikadze, 32
+20:50:33.773 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 13, bachi, nadareishvili, 34
+20:50:33.774 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 14, genadi, natelashvili, 18
+20:50:33.774 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 15, zviadi, gorgiladze, 24
+20:50:33.774 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 16, nugzari, alashvili, 25
+20:50:33.775 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 18, irakli, tsulukidze, 22
+20:50:33.775 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 19, irakli, zandukeli, 48
+20:50:33.775 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 35, irakli, zandukeli, 48
+20:50:33.776 [main] DEBUG src/main/java/mappers/PersonMapper.selectAllPersons - <==      Total: 19
+20:50:33.784 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@70e659aa]
+20:50:33.785 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@70e659aa]
+20:50:33.785 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1894144426 to pool.
+21:00:23.704 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+21:00:23.716 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+21:00:23.717 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+21:00:23.717 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+21:00:23.717 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+21:00:23.763 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+21:00:24.158 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1894144426.
+21:00:24.161 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@70e659aa]
+21:00:24.167 [main] DEBUG src/main/java/mappers/PersonMapper.selectAllPersons - ==>  Preparing: SELECT * FROM person
+21:00:24.191 [main] DEBUG src/main/java/mappers/PersonMapper.selectAllPersons - ==> Parameters: 
+21:00:24.212 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==    Columns: person_id, first_name, last_name, age
+21:00:24.213 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 1, shio, makatsaria, 26
+21:00:24.220 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 2, giorgi, afshilava, 48
+21:00:24.220 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 3, beqa, dzagania, 21
+21:00:24.221 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 4, nodari, marabdeli, 19
+21:00:24.221 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 5, irakli, nacvlishvili, 25
+21:00:24.221 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 6, miriani, mukeria, 29
+21:00:24.221 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 7, giorgi, ghulatava, 46
+21:00:24.221 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 8, shota, shiolashvili, 63
+21:00:24.222 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 9, nika, baratashvili, 46
+21:00:24.222 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 10, achi, sherozia, 35
+21:00:24.222 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 11, erekle, gulia, 27
+21:00:24.222 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 12, sulxani, bzikadze, 32
+21:00:24.223 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 13, bachi, nadareishvili, 34
+21:00:24.223 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 14, genadi, natelashvili, 18
+21:00:24.223 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 15, zviadi, gorgiladze, 24
+21:00:24.223 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 16, nugzari, alashvili, 25
+21:00:24.224 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 18, irakli, tsulukidze, 22
+21:00:24.224 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 19, irakli, zandukeli, 48
+21:00:24.225 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 35, irakli, zandukeli, 48
+21:00:24.225 [main] DEBUG src/main/java/mappers/PersonMapper.selectAllPersons - <==      Total: 19
+21:00:24.228 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@70e659aa]
+21:00:24.229 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@70e659aa]
+21:00:24.230 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1894144426 to pool.
+21:03:59.160 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+21:03:59.172 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+21:03:59.172 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+21:03:59.173 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+21:03:59.174 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+21:03:59.222 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+21:03:59.597 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1894144426.
+21:03:59.598 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@70e659aa]
+21:03:59.604 [main] DEBUG src/main/java/mappers/PersonMapper.selectAllPersons - ==>  Preparing: SELECT * FROM person
+21:03:59.630 [main] DEBUG src/main/java/mappers/PersonMapper.selectAllPersons - ==> Parameters: 
+21:03:59.651 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==    Columns: person_id, first_name, last_name, age
+21:03:59.652 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 1, shio, makatsaria, 26
+21:03:59.659 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 2, giorgi, afshilava, 48
+21:03:59.660 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 3, beqa, dzagania, 21
+21:03:59.660 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 4, nodari, marabdeli, 19
+21:03:59.660 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 5, irakli, nacvlishvili, 25
+21:03:59.660 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 6, miriani, mukeria, 29
+21:03:59.661 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 7, giorgi, ghulatava, 46
+21:03:59.661 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 8, shota, shiolashvili, 63
+21:03:59.661 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 9, nika, baratashvili, 46
+21:03:59.662 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 10, achi, sherozia, 35
+21:03:59.662 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 11, erekle, gulia, 27
+21:03:59.663 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 12, sulxani, bzikadze, 32
+21:03:59.663 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 13, bachi, nadareishvili, 34
+21:03:59.664 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 14, genadi, natelashvili, 18
+21:03:59.664 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 15, zviadi, gorgiladze, 24
+21:03:59.665 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 16, nugzari, alashvili, 25
+21:03:59.665 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 18, irakli, tsulukidze, 22
+21:03:59.666 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 19, irakli, zandukeli, 48
+21:03:59.666 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 35, irakli, zandukeli, 48
+21:03:59.666 [main] DEBUG src/main/java/mappers/PersonMapper.selectAllPersons - <==      Total: 19
+21:03:59.669 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@70e659aa]
+21:03:59.670 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@70e659aa]
+21:03:59.671 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1894144426 to pool.
+21:04:52.038 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+21:04:52.051 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+21:04:52.051 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+21:04:52.051 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+21:04:52.051 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+21:04:52.095 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+21:04:52.451 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1894144426.
+21:04:52.453 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@70e659aa]
+21:04:52.459 [main] DEBUG src/main/java/mappers/PersonMapper.selectAllPersons - ==>  Preparing: SELECT * FROM person
+21:04:52.485 [main] DEBUG src/main/java/mappers/PersonMapper.selectAllPersons - ==> Parameters: 
+21:04:52.516 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==    Columns: person_id, first_name, last_name, age
+21:04:52.516 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 1, shio, makatsaria, 26
+21:04:52.523 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 2, giorgi, afshilava, 48
+21:04:52.524 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 3, beqa, dzagania, 21
+21:04:52.524 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 4, nodari, marabdeli, 19
+21:04:52.524 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 5, irakli, nacvlishvili, 25
+21:04:52.525 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 6, miriani, mukeria, 29
+21:04:52.525 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 7, giorgi, ghulatava, 46
+21:04:52.525 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 8, shota, shiolashvili, 63
+21:04:52.526 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 9, nika, baratashvili, 46
+21:04:52.526 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 10, achi, sherozia, 35
+21:04:52.526 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 11, erekle, gulia, 27
+21:04:52.526 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 12, sulxani, bzikadze, 32
+21:04:52.527 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 13, bachi, nadareishvili, 34
+21:04:52.527 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 14, genadi, natelashvili, 18
+21:04:52.527 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 15, zviadi, gorgiladze, 24
+21:04:52.528 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 16, nugzari, alashvili, 25
+21:04:52.528 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 18, irakli, tsulukidze, 22
+21:04:52.528 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 19, irakli, zandukeli, 48
+21:04:52.529 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 35, irakli, zandukeli, 48
+21:04:52.529 [main] DEBUG src/main/java/mappers/PersonMapper.selectAllPersons - <==      Total: 19
+21:04:52.531 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@70e659aa]
+21:04:52.532 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@70e659aa]
+21:04:52.533 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1894144426 to pool.
+21:06:06.171 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+21:06:06.183 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+21:06:06.183 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+21:06:06.184 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+21:06:06.184 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+21:06:06.227 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+21:06:06.584 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1894144426.
+21:06:06.585 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@70e659aa]
+21:06:06.591 [main] DEBUG src/main/java/mappers/PersonMapper.selectAllPersons - ==>  Preparing: SELECT * FROM person
+21:06:06.617 [main] DEBUG src/main/java/mappers/PersonMapper.selectAllPersons - ==> Parameters: 
+21:06:06.638 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==    Columns: person_id, first_name, last_name, age
+21:06:06.639 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 1, shio, makatsaria, 26
+21:06:06.645 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 2, giorgi, afshilava, 48
+21:06:06.646 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 3, beqa, dzagania, 21
+21:06:06.646 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 4, nodari, marabdeli, 19
+21:06:06.646 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 5, irakli, nacvlishvili, 25
+21:06:06.647 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 6, miriani, mukeria, 29
+21:06:06.647 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 7, giorgi, ghulatava, 46
+21:06:06.647 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 8, shota, shiolashvili, 63
+21:06:06.647 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 9, nika, baratashvili, 46
+21:06:06.647 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 10, achi, sherozia, 35
+21:06:06.648 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 11, erekle, gulia, 27
+21:06:06.648 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 12, sulxani, bzikadze, 32
+21:06:06.648 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 13, bachi, nadareishvili, 34
+21:06:06.649 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 14, genadi, natelashvili, 18
+21:06:06.649 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 15, zviadi, gorgiladze, 24
+21:06:06.649 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 16, nugzari, alashvili, 25
+21:06:06.650 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 18, irakli, tsulukidze, 22
+21:06:06.650 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 19, irakli, zandukeli, 48
+21:06:06.650 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 35, irakli, zandukeli, 48
+21:06:06.650 [main] DEBUG src/main/java/mappers/PersonMapper.selectAllPersons - <==      Total: 19
+21:06:06.653 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@70e659aa]
+21:06:06.654 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@70e659aa]
+21:06:06.654 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1894144426 to pool.
+21:20:37.652 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+21:20:37.675 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+21:20:37.675 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+21:20:37.676 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+21:20:37.677 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+21:20:37.761 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+21:20:38.368 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1894144426.
+21:20:38.370 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@70e659aa]
+21:20:38.381 [main] DEBUG src/main/java/mappers/PersonMapper.selectAllPersons - ==>  Preparing: SELECT * FROM person
+21:20:38.429 [main] DEBUG src/main/java/mappers/PersonMapper.selectAllPersons - ==> Parameters: 
+21:20:38.465 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==    Columns: person_id, first_name, last_name, age
+21:20:38.465 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 1, shio, makatsaria, 26
+21:20:38.476 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 2, giorgi, afshilava, 48
+21:20:38.477 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 3, beqa, dzagania, 21
+21:20:38.477 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 4, nodari, marabdeli, 19
+21:20:38.478 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 5, irakli, nacvlishvili, 25
+21:20:38.479 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 6, miriani, mukeria, 29
+21:20:38.479 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 7, giorgi, ghulatava, 46
+21:20:38.480 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 8, shota, shiolashvili, 63
+21:20:38.481 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 9, nika, baratashvili, 46
+21:20:38.481 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 10, achi, sherozia, 35
+21:20:38.482 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 11, erekle, gulia, 27
+21:20:38.483 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 12, sulxani, bzikadze, 32
+21:20:38.483 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 13, bachi, nadareishvili, 34
+21:20:38.484 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 14, genadi, natelashvili, 18
+21:20:38.484 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 15, zviadi, gorgiladze, 24
+21:20:38.485 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 16, nugzari, alashvili, 25
+21:20:38.486 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 18, irakli, tsulukidze, 22
+21:20:38.487 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 19, irakli, zandukeli, 48
+21:20:38.487 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 35, irakli, zandukeli, 48
+21:20:38.488 [main] DEBUG src/main/java/mappers/PersonMapper.selectAllPersons - <==      Total: 19
+21:20:38.492 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@70e659aa]
+21:20:38.493 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@70e659aa]
+21:20:38.494 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1894144426 to pool.
+21:20:47.052 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+21:20:47.070 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+21:20:47.071 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+21:20:47.071 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+21:20:47.071 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+21:22:44.540 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+21:22:44.561 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+21:22:44.562 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+21:22:44.562 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+21:22:44.563 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+21:40:07.151 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+21:40:07.171 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+21:40:07.171 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+21:40:07.171 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+21:40:07.172 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+21:40:07.258 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+21:40:07.890 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1894144426.
+21:40:07.893 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@70e659aa]
+21:40:07.904 [main] DEBUG src/main/java/mappers/PersonMapper.selectAllPersons - ==>  Preparing: SELECT * FROM person
+21:40:07.954 [main] DEBUG src/main/java/mappers/PersonMapper.selectAllPersons - ==> Parameters: 
+21:40:07.992 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==    Columns: person_id, first_name, last_name, age
+21:40:07.993 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 1, shio, makatsaria, 26
+21:40:08.004 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 2, giorgi, afshilava, 48
+21:40:08.005 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 3, beqa, dzagania, 21
+21:40:08.005 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 4, nodari, marabdeli, 19
+21:40:08.006 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 5, irakli, nacvlishvili, 25
+21:40:08.007 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 6, miriani, mukeria, 29
+21:40:08.007 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 7, giorgi, ghulatava, 46
+21:40:08.008 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 8, shota, shiolashvili, 63
+21:40:08.008 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 9, nika, baratashvili, 46
+21:40:08.009 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 10, achi, sherozia, 35
+21:40:08.009 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 11, erekle, gulia, 27
+21:40:08.010 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 12, sulxani, bzikadze, 32
+21:40:08.011 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 13, bachi, nadareishvili, 34
+21:40:08.011 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 14, genadi, natelashvili, 18
+21:40:08.012 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 15, zviadi, gorgiladze, 24
+21:40:08.013 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 16, nugzari, alashvili, 25
+21:40:08.014 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 18, irakli, tsulukidze, 22
+21:40:08.014 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 19, irakli, zandukeli, 48
+21:40:08.015 [main] TRACE src/main/java/mappers/PersonMapper.selectAllPersons - <==        Row: 35, irakli, zandukeli, 48
+21:40:08.016 [main] DEBUG src/main/java/mappers/PersonMapper.selectAllPersons - <==      Total: 19
+21:40:08.021 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@70e659aa]
+21:40:08.022 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@70e659aa]
+21:40:08.023 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1894144426 to pool.
+22:36:18.743 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+22:36:18.756 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:36:18.756 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:36:18.756 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:36:18.756 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:38:52.031 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+22:38:52.043 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:38:52.044 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:38:52.044 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:38:52.045 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:42:26.375 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+22:42:26.387 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:42:26.388 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:42:26.388 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:42:26.389 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:47:59.929 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+22:47:59.942 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:47:59.942 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:47:59.942 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:47:59.943 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:48:07.554 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+22:48:07.566 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:48:07.567 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:48:07.567 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:48:07.567 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:48:52.508 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+22:48:52.520 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:48:52.521 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:48:52.521 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:48:52.522 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:51:53.977 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+22:51:53.990 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:51:53.990 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:51:53.991 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:51:53.991 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:52:11.629 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+22:52:11.641 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:52:11.641 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:52:11.641 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:52:11.642 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:53:43.725 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+22:53:43.737 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:53:43.738 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:53:43.738 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:53:43.739 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:56:08.484 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+22:56:08.495 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:56:08.496 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:56:08.496 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:56:08.496 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:56:54.003 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+22:56:54.016 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:56:54.016 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:56:54.016 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:56:54.017 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:58:04.212 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+22:58:04.224 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:58:04.225 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:58:04.225 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:58:04.226 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:58:24.486 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+22:58:24.498 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:58:24.499 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:58:24.499 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:58:24.500 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
