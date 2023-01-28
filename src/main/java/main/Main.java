@@ -48,9 +48,9 @@ public class Main {
 
 	    
 	    
-//	    
-//	    PersonMapper personMyBatis = new PersonMapper();
-//	    personMyBatis.getALLPersons();
+	    
+	    PersonMapper personMyBatis = new PersonMapper();
+	    personMyBatis.getALLPersons();
 	    
 	    CarOwnerMapper carOwnerMyBatis = new CarOwnerMapper();
 	    
