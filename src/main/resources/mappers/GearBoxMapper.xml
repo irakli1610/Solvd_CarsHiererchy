@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+  
+  <mapper namespace="src/main/java/service/ServiceGearBoxMapper">
+  		<resultMap type="gearbox" id="resultAll">
+  			<id property="gearboxId" column="gearbox_id"/>
+  			<result property="numberOfGears"  column="number_of_gears"/>
+  			<result property="typeOfGearbox"  column="type_of_gearbox"/>
+  		</resultMap>
+  		<select id="selectAllGearBox" resultType="gearbox" resultMap = "resultAll">
+			  	SELECT * FROM gearbox
+  		</select>
+  		<insert id="insertGearBox" parameterType="gearbox" keyProperty="gearboxId" useGeneratedKeys="false">
+  				INSERT INTO gearbox VALUES(#{gearboxId}, #{numberOfGears}, #{typeOfGearbox})
+  		</insert>
+  		<update id="updateEntity" >
+  			UPDATE gearbox SET 
+  			gearbox_id=#{gearboxId},
+  			number_of_gears=#{numberOfGears},
+  			type_of_gearbox=#{typeOfGearbox},
+  			WHERE gearbox_id = #{gearboxId}
+  		</update>
+  		<delete id="deleteEntity">
+  			DELETE FROM gearbox WHERE gearbox_id=#{gearboxId}
+  		</delete>
+  </mapper>

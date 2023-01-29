@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+  <mapper namespace="src/main/java/service/ServiceCarsMapper">
+  		<resultMap type="cars" id="resultAll">
+  			<id property="carsListId" column="cars_list_id"/>
+  			<result property="carModel"  column="car_model"/>
+  			<result property="relaseYear"  column="relase_year"/>
+  			<result property="carsSystemsId"  column="cars_systems_id"/>
+  			<result property="carPartsId"  column="car_parts_id"/>
+  			<result property="carShopsId"  column="car_shops_id"/>
+  			<result property="carOwnerId"  column="car_owner_id"/>
+  		</resultMap>
+  		<select id="selectAllCars" resultType="cars" resultMap = "resultAll">
+			  	SELECT * FROM  carslist
+			  	
+  		</select>
+  		<insert id="insertCar" parameterType="cars" keyProperty="carsListId" useGeneratedKeys="false">
+  				INSERT INTO carslist VALUES(#{carsListId}, #{carModel}, #{relaseYear}, #{carsSystemsId},#{carPartsId},#{carShopsId},#{carOwnerId})
+  		</insert>
+  		<update id="updateEntity" >
+  			UPDATE carslist SET 
+  			cars_list_id=#{carsListId},
+  			car_model=#{carModel},
+  			relase_year=#{relaseYear},
+  			cars_systems_id=#{carsSystemsId},
+  			car_parts_id=#{carPartsId},
+  			car_shops_id=#{carShopsId},
+  			car_owner_id=#{carOwnerId},
+  			WHERE cars_list_id = #{carsListId}
+  		</update>
+  		<delete id="deleteEntity">
+  			DELETE FROM carslist WHERE cars_list_id=#{carsListId}
+  		</delete>
+  </mapper>  

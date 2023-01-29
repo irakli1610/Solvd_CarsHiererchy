@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+  <mapper namespace="src/main/java/service/ServiceCarServiceMapper">
+  		<resultMap type="carservices" id="resultAll">
+  			<id property="carServiceId" column="car_service_id"/>
+  			<result property="carServiceName"  column="car_service_name"/>
+  		</resultMap>
+  		<select id="selectAllCarServices" resultType="carservices" resultMap = "resultAll">
+			  	SELECT * FROM  carowner
+			  	
+  		</select>
+  		<insert id="insertCarService" parameterType="carservices" keyProperty="carServiceId" useGeneratedKeys="false">
+  				INSERT INTO carservices VALUES(#{carServiceId}, #{carServiceName})
+  		</insert>
+  		<update id="updateEntity" >
+  			UPDATE carservices SET 
+  			car_service_id=#{carServiceId},
+  			car_service_name=#{carServiceName},
+  			WHERE car_service_id = #{carServiceId}
+  		</update>
+  		<delete id="deleteEntity">
+  			DELETE FROM carservices WHERE car_service_id=#{carServiceId}
+  		</delete>
+  </mapper>  

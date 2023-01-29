@@ -14,6 +14,19 @@
   	<typeAliases>
   		<typeAlias type="models.Person" alias="Person"/>
   		<typeAlias type="models.CarOwner" alias="carOwner"/>
+  		<typeAlias type="models.Engine" alias="engine"/>
+  		<typeAlias type="models.GearBox" alias="gearbox"/>
+  		<typeAlias type="models.Tires" alias="tires"/>
+  		<typeAlias type="models.CarParts" alias="carParts"/>
+  		<typeAlias type="models.CarServices" alias="carservices"/>
+  		<typeAlias type="models.CarShops" alias="carshops"/>
+  		<typeAlias type="models.Cars" alias="cars"/>
+  		<typeAlias type="models.CarSystems" alias="carsystems"/>
+  		<typeAlias type="models.HeatingCooling" alias="heatingcooling"/>
+  		<typeAlias type="models.Lights" alias="lights"/>
+  		<typeAlias type="models.ServicedCars" alias="servicedcars"/>
+  		<typeAlias type="models.ServiceEmployee" alias="serviceemployee"/>
+  		<typeAlias type="models.ShopEmployee" alias="shopemployee"/>
   	</typeAliases>
   	<environments default="development">
   		<environment id="development">
@@ -31,6 +44,19 @@
   	<mappers>
   		<mapper resource="mappers/PersonMapper.xml "/>
   		<mapper resource="mappers/CarOwnerMapper.xml "/>
+  		<mapper resource="mappers/EngineMapper.xml "/>
+  		<mapper resource="mappers/GearBoxMapper.xml "/>
+  		<mapper resource="mappers/TiresMapper.xml "/>
+  		<mapper resource="mappers/CarPartsMapper.xml "/>
+  		<mapper resource="mappers/CarServiceMapper.xml "/>
+  		<mapper resource="mappers/CarShopsMapper.xml "/>
+  		<mapper resource="mappers/CarsMapper.xml "/>
+  		<mapper resource="mappers/CarSystemsMapper.xml "/>
+  		<mapper resource="mappers/HeatingCoolingMapper.xml "/>
+  		<mapper resource="mappers/LightsMapper.xml "/>
+  		<mapper resource="mappers/ServicedCarsMapper.xml "/>
+  		<mapper resource="mappers/ServiceEmployeeMapper.xml "/>
+  		<mapper resource="mappers/ShopEmployeeMapper.xml "/>
   		
   	</mappers>
   </configuration>

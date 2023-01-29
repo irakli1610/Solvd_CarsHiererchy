@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+  <mapper namespace="src/main/java/service/ServiceLightsMapper">
+  		<resultMap type="lights" id="resultAll">
+  			<id property="lightsId" column="lights_id"/>
+  			<result property="frontLights"  column="front_lights"/>
+  			<result property="backLights"  column="back_lights"/>
+  			<result property="turnLights"  column="turn_lights"/>
+  			<result property="stopLights"  column="stop_lights"/>
+  			<result property="fogLights"  column="fog_lights"/>
+  		</resultMap>
+  		<select id="selectAllLights" resultType="lights" resultMap = "resultAll">
+			  	SELECT * FROM  lights
+			  	
+  		</select>
+  		<insert id="insertLight" parameterType="lights" keyProperty="lightsId" useGeneratedKeys="false">
+  				INSERT INTO engine VALUES(#{lightsId}, #{frontLights}, #{backLights}, #{turnLights}, #{stopLights}, #{fogLights})
+  		</insert>
+  		<update id="updateEntity" >
+  			UPDATE lights SET 
+  			lights_id=#{lightsId},
+  			front_lights=#{frontLights},
+  			back_lights=#{backLights},
+  			turn_lights=#{turnLights},
+  			stop_lights=#{stopLights},
+  			fog_lights=#{fogLights},
+  			WHERE lights_id = #{lightsId}
+  		</update>
+  		<delete id="deleteEntity">
+  			DELETE FROM lights WHERE lights_id=#{lightsId}
+  		</delete>
+  </mapper>  

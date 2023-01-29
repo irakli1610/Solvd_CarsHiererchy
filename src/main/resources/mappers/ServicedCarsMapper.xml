@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+  <mapper namespace="src/main/java/service/ServiceServicedCarsMapper">
+  		<resultMap type="servicedcars" id="resultAll">
+  			<id property="servicedCarsId" column="serviced_cars_id"/>
+  			<result property="carServiceId"  column="car_service_id"/>
+  			<result property="carsListId"  column="cars_list_id"/>
+  			<result property="price"  column="price"/>
+  		</resultMap>
+  		<select id="selectAllServicedCars" resultType="servicedcars" resultMap = "resultAll">
+			  	SELECT * FROM  servicedcars
+			  	
+  		</select>
+  		<insert id="insertServedCars" parameterType="servicedcars" keyProperty="servicedCarsId" useGeneratedKeys="false">
+  				INSERT INTO engine VALUES(#{servicedCarsId}, #{carServiceId}, #{carsListId}, #{price})
+  		</insert>
+  		<update id="updateEntity" >
+  			UPDATE servicedcars SET 
+  			serviced_cars_id=#{servicedCarsId},
+  			car_service_id=#{carServiceId},
+  			cars_list_id=#{carsListId},
+  			price=#{price},
+  			WHERE serviced_cars_id = #{servicedCarsId}
+  		</update>
+  		<delete id="deleteEntity">
+  			DELETE FROM servicedcars WHERE serviced_cars_id=#{servicedCarsId}
+  		</delete>
+  </mapper>  

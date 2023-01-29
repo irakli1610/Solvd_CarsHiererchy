@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+  <mapper namespace="src/main/java/service/ServiceHeatingCoolingMapper">
+  		<resultMap type="heatingcooling" id="resultAll">
+  			<id property="heatingCoolingId" column="heating_cooling_id"/>
+  			<result property="steeringWheelHeating"  column="steering_wheel_heating"/>
+  			<result property="seatsHeating"  column="seats_heating"/>
+  			<result property="interierHeating"  column="interier_heating"/>
+  			<result property="interierCooling"  column="interier_cooling"/>
+  		</resultMap>
+  		<select id="selectAllHeatingCooling" resultType="heatingcooling" resultMap = "resultAll">
+			  	SELECT * FROM  heatingcooling
+			  	
+  		</select>
+  		 		<insert id="insertEntity" parameterType="heatingcooling" keyProperty="heatingCoolingId" useGeneratedKeys="false">
+  				INSERT INTO HeatingCooling VALUES(#{persheatingCoolingIdonId}, #{steeringWheelHeating}, #{interierHeating}, #{age},#{interierCooling})
+  		</insert>
+  		<update id="updateEntity" >
+  			UPDATE heatingcooling SET heating_cooling_id=#{heatingCoolingId},
+  			steering_wheel_heating=#{steeringWheelHeating},
+  			seats_heating=#{seatsHeating},
+  			interier_heating=#{interierHeating},
+  			interier_cooling=#{interierCooling} 
+  			WHERE heating_cooling_id = #{heatingCoolingId}
+  		</update>
+  		<delete id="deleteEntity">
+  			DELETE FROM heatingcooling WHERE heating_cooling_id=#{heatingCoolingId}
+  		</delete>
+  </mapper>  

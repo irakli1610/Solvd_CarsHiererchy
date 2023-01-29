@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+  <mapper namespace="src/main/java/service/ServiceServiceEmployeeMapper">
+  		<resultMap type="serviceemployee" id="resultAll">
+  			<id property="serviceEmployeeId" column="service_employee_id"/>
+  			<result property="workingExperience"  column="working_experience"/>
+  			<result property="servicedCars"  column="ServicedCars"/>
+  			<result property="position"  column="position"/>
+  			<result property="personId"  column="person_id"/>
+  			<result property="carServiceId"  column="car_service_id"/>
+  		</resultMap>
+  		<select id="selectAllServiceEmployee" resultType="serviceemployee" resultMap = "resultAll">
+			  	SELECT * FROM  serviceemployee
+			  	
+  		</select>
+  		<insert id="insertServiceEmployee" parameterType="serviceemployee" keyProperty="serviceEmployeeId" useGeneratedKeys="false">
+  				INSERT INTO engine VALUES(#{serviceEmployeeId}, #{workingExperience}, #{servicedCars}, #{position}, #{personId}, #{carServiceId})
+  		</insert>
+  		<update id="updateEntity" >
+  			UPDATE serviceemployee SET 
+  			service_employee_id=#{serviceEmployeeId},
+  			working_experience=#{workingExperience},
+  			ServicedCars=#{servicedCars},
+  			position=#{position},
+  			person_id=#{personId},
+  			car_service_id=#{carServiceId},
+  			WHERE service_employee_id = #{serviceEmployeeId}
+  		</update>
+  		<delete id="deleteEntity">
+  			DELETE FROM serviceemployee WHERE service_employee_id=#{serviceEmployeeId}
+  		</delete>
+  </mapper>  

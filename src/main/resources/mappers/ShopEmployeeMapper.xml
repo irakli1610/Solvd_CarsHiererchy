@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+  <mapper namespace="src/main/java/service/ServiceShopEmployeeMapper">
+  		<resultMap type="shopemployee" id="resultAll">
+  			<id property="shopEmployeeId" column="shop_employee_id"/>
+  			<result property="workingExperience"  column="working_experience"/>
+  			<result property="soldCars"  column="sold_cars"/>
+  			<result property="position"  column="position"/>
+  			<result property="carShopsId"  column="car_shops_id"/>
+  			<result property="personId"  column="person_id"/>
+  		</resultMap>
+  		<select id="selectAllShopEmployee" resultType="shopemployee" resultMap = "resultAll">
+			  	SELECT * FROM  shopemployee
+			  	
+  		</select>
+  		<insert id="insertShopEmployee" parameterType="shopemployee" keyProperty="shopEmployeeId" useGeneratedKeys="false">
+  				INSERT INTO engine VALUES(#{shopEmployeeId}, #{workingExperience}, #{soldCars}, #{position}, #{carShopsId}, #{personId})
+  		</insert>
+  		<update id="updateEntity" >
+  			UPDATE shopemployee SET 
+  			shop_employee_id=#{shopEmployeeId},
+  			working_experience=#{workingExperience},
+  			sold_cars=#{soldCars},
+  			position=#{position},
+  			car_shops_id=#{carShopsId},
+  			person_id=#{personId},
+  			WHERE shop_employee_id = #{shopEmployeeId}
+  		</update>
+  		<delete id="deleteEntity">
+  			DELETE FROM shopemployee WHERE shop_employee_id=#{shopEmployeeId}
+  		</delete>
+  </mapper>  

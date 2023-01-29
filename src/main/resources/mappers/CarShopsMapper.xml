@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+  <mapper namespace="src/main/java/service/ServiceCarShopsMapper">
+  		<resultMap type="carshops" id="resultAll">
+  			<id property="carShopsId" column="car_shops_id"/>
+  			<result property="carShopName"  column="car_shop_name"/>
+  			<result property="soldCarsNumber"  column="sold_cars_number"/>
+  		</resultMap>
+  		<select id="selectAllCarShops" resultType="carshops" resultMap = "resultAll">
+			  	SELECT * FROM  carshops
+			  	
+  		</select>
+  		<insert id="insertCarShops" parameterType="carshops" keyProperty="carShopsId" useGeneratedKeys="false">
+  				INSERT INTO carshops VALUES(#{carShopsId}, #{carShopName}, #{soldCarsNumber})
+  		</insert>
+  		<update id="updateEntity" >
+  			UPDATE carshops SET 
+  			car_shops_id=#{carShopsId},
+  			car_shop_name=#{carShopName},
+  			sold_cars_number=#{soldCarsNumber},
+  			WHERE car_shops_id = #{carShopsId}
+  		</update>
+  		<delete id="deleteEntity">
+  			DELETE FROM carshops WHERE car_shops_id=#{carShopsId}
+  		</delete>
+  </mapper>  

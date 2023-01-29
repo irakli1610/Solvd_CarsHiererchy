@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+  
+  <mapper namespace="src/main/java/service/ServiceTiresMapper">
+  		<resultMap type="tires" id="resultAll">
+  			<id property="tireId" column="tire_id"/>
+  			<result property="numberOfTires"  column="number_of_tires"/>
+  			<result property="tireSize"  column="tire_size"/>
+  			<result property="tireBrand"  column="tire_brand"/>
+  		</resultMap>
+  		<select id="selectAllTires" resultType="tires" resultMap = "resultAll">
+			  	SELECT * FROM tires
+  		</select>
+  		<insert id="insertTires" parameterType="engine" keyProperty="engineId" useGeneratedKeys="false">
+  				INSERT INTO engine VALUES(#{tireId}, #{numberOfTires}, #{tireSize}, #{tireBrand})
+  		</insert>
+  		<update id="updateEntity" >
+  			UPDATE tires SET 
+  			tire_id=#{tireId},
+  			number_of_tires=#{numberOfTires},
+  			tire_size=#{tireSize},
+  			tire_brand=#{tireBrand},
+  			WHERE tire_id = #{tireId}
+  		</update>
+  		<delete id="deleteEntity">
+  			DELETE FROM tires WHERE tire_id=#{tireId}
+  		</delete>
+  </mapper>

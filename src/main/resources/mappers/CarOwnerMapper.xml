@@ -4,7 +4,7 @@
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
   
-  <mapper namespace="src/main/java/mappers/CarOwnerMapper">
+  <mapper namespace="src/main/java/service/ServiceCarOwnerMapper">
   		<resultMap type="carOwner" id="resultAll">
   			<id property="carOwnerId" column="car_owner_id"/>
   			<result property="numberOfCars"  column="number_of_cars"/>
@@ -14,4 +14,18 @@
 			  	SELECT * FROM  carowner
 			  	
   		</select>
+  		<insert id="insertCarOwner" parameterType="carOwner" keyProperty="carOwnerId" useGeneratedKeys="false">
+  				INSERT INTO carowner VALUES(#{carOwnerId}, #{numberOfCars}, #{personId})
+  		</insert>
+  		<update id="updateEntity" >
+  			UPDATE carowner SET 
+  			car_owner_id=#{carOwnerId},
+  			number_of_cars=#{numberOfCars},
+  			person_id=#{personId},
+  			WHERE car_owner_id = #{carOwnerId}
+  		</update>
+  		<delete id="deleteEntity">
+  			DELETE FROM carowner WHERE car_owner_id=#{carOwnerId}
+  		</delete>
+  		
   </mapper>  
