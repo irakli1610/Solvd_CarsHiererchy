@@ -26,13 +26,13 @@ public class ServiceCarPartsMapper implements ICarParstMapper {
 	}
 	public void updateEntity(CarParts carpa){
 		SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();	
-		session.update("updateEntity",carpa);
+		session.update("updateCarParts",carpa);
 		session.commit();
 		session.close();
 	}
 	public void deleteEntity(long carPartsId){
 		SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();	
-		session.update("deleteEntity",carPartsId);
+		session.update("deleteCarParts",carPartsId);
 		session.commit();
 		session.close();
 	}

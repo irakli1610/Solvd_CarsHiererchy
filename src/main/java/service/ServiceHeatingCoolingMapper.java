@@ -26,13 +26,13 @@ public class ServiceHeatingCoolingMapper implements IHeatingCoolingMapper {
 	}
 	public void updateEntity(HeatingCooling heatcool){
 		SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();	
-		session.update("updateEntity",heatcool);
+		session.update("updateHeatingCooling",heatcool);
 		session.commit();
 		session.close();
 	}
 	public void deleteEntity(long heatingCoolingId){
 		SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();	
-		session.update("deleteEntity",heatingCoolingId);
+		session.update("deleteHeatingCooling",heatingCoolingId);
 		session.commit();
 		session.close();
 	}

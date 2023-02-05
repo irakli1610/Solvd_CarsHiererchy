@@ -26,13 +26,13 @@ public class ServiceTiresMapper implements ITiresMapper {
 	}
 	public void updateEntity(Tires tire){
 		SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();	
-		session.update("updateEntity",tire);
+		session.update("updateTires",tire);
 		session.commit();
 		session.close();
 	}
 	public void deleteEntity(long tireId){
 		SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();	
-		session.update("deleteEntity",tireId);
+		session.update("deleteTires",tireId);
 		session.commit();
 		session.close();
 	}

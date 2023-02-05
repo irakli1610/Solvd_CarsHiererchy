@@ -26,13 +26,13 @@ public class ServiceLightsMapper implements ILightsMapper {
 	}
 	public void updateEntity(Lights light){
 		SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();	
-		session.update("updateEntity",light);
+		session.update("updateLights",light);
 		session.commit();
 		session.close();
 	}
 	public void deleteEntity(long lightsId){
 		SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();	
-		session.update("deleteEntity",lightsId);
+		session.update("deleteLights",lightsId);
 		session.commit();
 		session.close();
 	}

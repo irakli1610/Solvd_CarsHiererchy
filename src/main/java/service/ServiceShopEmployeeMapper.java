@@ -26,13 +26,13 @@ public class ServiceShopEmployeeMapper implements IShopEmployeeMapper {
 	}
 	public void updateEntity(ShopEmployee shopemp){
 		SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();	
-		session.update("updateEntity",shopemp);
+		session.update("updateShopEmployee",shopemp);
 		session.commit();
 		session.close();
 	}
 	public void deleteEntity(long shopEmployeeId){
 		SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();	
-		session.update("deleteEntity",shopEmployeeId);
+		session.update("deleteShopEmployee",shopEmployeeId);
 		session.commit();
 		session.close();
 	}

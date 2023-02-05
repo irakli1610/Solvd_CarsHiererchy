@@ -21,7 +21,7 @@
   		<insert id="insertCar" parameterType="cars" keyProperty="carsListId" useGeneratedKeys="false">
   				INSERT INTO carslist VALUES(#{carsListId}, #{carModel}, #{relaseYear}, #{carsSystemsId},#{carPartsId},#{carShopsId},#{carOwnerId})
   		</insert>
-  		<update id="updateEntity" >
+  		<update id="updateCars" >
   			UPDATE carslist SET 
   			cars_list_id=#{carsListId},
   			car_model=#{carModel},
@@ -32,7 +32,7 @@
   			car_owner_id=#{carOwnerId},
   			WHERE cars_list_id = #{carsListId}
   		</update>
-  		<delete id="deleteEntity">
+  		<delete id="deleteCars">
   			DELETE FROM carslist WHERE cars_list_id=#{carsListId}
   		</delete>
   </mapper>  

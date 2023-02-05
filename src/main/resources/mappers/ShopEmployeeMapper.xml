@@ -20,7 +20,7 @@
   		<insert id="insertShopEmployee" parameterType="shopemployee" keyProperty="shopEmployeeId" useGeneratedKeys="false">
   				INSERT INTO engine VALUES(#{shopEmployeeId}, #{workingExperience}, #{soldCars}, #{position}, #{carShopsId}, #{personId})
   		</insert>
-  		<update id="updateEntity" >
+  		<update id="updateShopEmployee" >
   			UPDATE shopemployee SET 
   			shop_employee_id=#{shopEmployeeId},
   			working_experience=#{workingExperience},
@@ -30,7 +30,7 @@
   			person_id=#{personId},
   			WHERE shop_employee_id = #{shopEmployeeId}
   		</update>
-  		<delete id="deleteEntity">
+  		<delete id="deleteShopEmployee">
   			DELETE FROM shopemployee WHERE shop_employee_id=#{shopEmployeeId}
   		</delete>
   </mapper>  

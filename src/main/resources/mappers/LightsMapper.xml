@@ -20,7 +20,7 @@
   		<insert id="insertLight" parameterType="lights" keyProperty="lightsId" useGeneratedKeys="false">
   				INSERT INTO engine VALUES(#{lightsId}, #{frontLights}, #{backLights}, #{turnLights}, #{stopLights}, #{fogLights})
   		</insert>
-  		<update id="updateEntity" >
+  		<update id="updateLights" >
   			UPDATE lights SET 
   			lights_id=#{lightsId},
   			front_lights=#{frontLights},
@@ -30,7 +30,7 @@
   			fog_lights=#{fogLights},
   			WHERE lights_id = #{lightsId}
   		</update>
-  		<delete id="deleteEntity">
+  		<delete id="deleteLights">
   			DELETE FROM lights WHERE lights_id=#{lightsId}
   		</delete>
   </mapper>  

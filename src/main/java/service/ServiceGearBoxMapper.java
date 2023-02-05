@@ -27,13 +27,13 @@ public class ServiceGearBoxMapper implements IGearBoxMapper {
 	}
 	public void updateEntity(GearBox gearbox){
 		SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();	
-		session.update("updateEntity",gearbox);
+		session.update("updateGearBox",gearbox);
 		session.commit();
 		session.close();
 	}
 	public void deleteEntity(long gearboxId){
 		SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();	
-		session.update("deleteEntity",gearboxId);
+		session.update("deleteGearBox",gearboxId);
 		session.commit();
 		session.close();
 	}

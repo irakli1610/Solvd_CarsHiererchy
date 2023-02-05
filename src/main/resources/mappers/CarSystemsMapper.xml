@@ -17,14 +17,14 @@
   		<insert id="insertCarSystem" parameterType="carsystems" keyProperty="carSystemsId" useGeneratedKeys="false">
   				INSERT INTO carsystems VALUES(#{carSystemsId}, #{lightsId}, #{heatingCoolingId})
   		</insert>
-  		<update id="updateEntity" >
+  		<update id="updateCarSystems" >
   			UPDATE carsystems SET 
   			car_systems_id=#{carSystemsId},
   			lights_id=#{lightsId},
   			heating_cooling_id=#{heatingCoolingId},
   			WHERE car_systems_id = #{carSystemsId}
   		</update>
-  		<delete id="deleteEntity">
+  		<delete id="deleteCarSystems">
   			DELETE FROM carsystems WHERE car_systems_id=#{carSystemsId}
   		</delete>
   </mapper>  

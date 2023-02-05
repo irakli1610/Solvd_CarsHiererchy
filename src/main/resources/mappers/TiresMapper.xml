@@ -18,7 +18,7 @@
   		<insert id="insertTires" parameterType="engine" keyProperty="engineId" useGeneratedKeys="false">
   				INSERT INTO engine VALUES(#{tireId}, #{numberOfTires}, #{tireSize}, #{tireBrand})
   		</insert>
-  		<update id="updateEntity" >
+  		<update id="updateTires" >
   			UPDATE tires SET 
   			tire_id=#{tireId},
   			number_of_tires=#{numberOfTires},
@@ -26,7 +26,7 @@
   			tire_brand=#{tireBrand},
   			WHERE tire_id = #{tireId}
   		</update>
-  		<delete id="deleteEntity">
+  		<delete id="deleteTires">
   			DELETE FROM tires WHERE tire_id=#{tireId}
   		</delete>
   </mapper>

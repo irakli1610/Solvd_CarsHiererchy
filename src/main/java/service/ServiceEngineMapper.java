@@ -26,13 +26,13 @@ public class ServiceEngineMapper implements IEngineMapper {
 	}
 	public void updateEntity(Engine eng){
 		SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();	
-		session.update("updateEntity",eng);
+		session.update("updateEngine",eng);
 		session.commit();
 		session.close();
 	}
 	public void deleteEntity(long engineId){
 		SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();	
-		session.update("deleteEntity",engineId);
+		session.update("deleteEngine",engineId);
 		session.commit();
 		session.close();
 	}

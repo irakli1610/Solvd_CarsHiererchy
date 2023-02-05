@@ -17,14 +17,14 @@
   		<insert id="insertCarOwner" parameterType="carOwner" keyProperty="carOwnerId" useGeneratedKeys="false">
   				INSERT INTO carowner VALUES(#{carOwnerId}, #{numberOfCars}, #{personId})
   		</insert>
-  		<update id="updateEntity" >
+  		<update id="updateCarOwner" >
   			UPDATE carowner SET 
   			car_owner_id=#{carOwnerId},
   			number_of_cars=#{numberOfCars},
   			person_id=#{personId},
   			WHERE car_owner_id = #{carOwnerId}
   		</update>
-  		<delete id="deleteEntity">
+  		<delete id="deleteCarOwner">
   			DELETE FROM carowner WHERE car_owner_id=#{carOwnerId}
   		</delete>
   		

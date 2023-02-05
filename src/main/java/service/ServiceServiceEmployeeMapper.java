@@ -26,13 +26,13 @@ public class ServiceServiceEmployeeMapper implements IServiceEmployeeMapper {
 	}
 	public void updateEntity(ServiceEmployee servenp){
 		SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();	
-		session.update("updateEntity",servenp);
+		session.update("updateServiceEmployee",servenp);
 		session.commit();
 		session.close();
 	}
 	public void deleteEntity(long servenp){
 		SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();	
-		session.update("deleteEntity",servenp);
+		session.update("deleteServiceEmployee",servenp);
 		session.commit();
 		session.close();
 	}

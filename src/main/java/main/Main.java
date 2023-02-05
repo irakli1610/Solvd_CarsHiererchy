@@ -53,15 +53,15 @@ public class Main {
 	    
 	    
 	    
-//	    Person personTest=new Person(55,"shio","nachkebia", 27);
-//	    ServicePersonMapper personMyBatis = new ServicePersonMapper();
+	    Person personTest=new Person(95,"shio","kakubia", 69);
+	    ServicePersonMapper personMyBatis = new ServicePersonMapper();
 //	    personMyBatis.insertEntity(personTest);
 //	    personMyBatis.updateEntity( personTest);
 	    
 	    
 
 //	    List<Person> personsdat =personMyBatis.getALLEntities();
-//	    personMyBatis.deleteEntity(55);
+	    personMyBatis.deleteEntity(95);
 //	    for (Person person : personsdat) {
 //			LOGGER.info(person);
 //		}
@@ -82,9 +82,10 @@ public class Main {
 //--------------------	    
 	    
 	    
-//	    CarParts cparts = new CarParts(22,4,3,2);
-//	    ServiceCarPartsMapper carpartsmapper = new ServiceCarPartsMapper();
+	    CarParts cparts = new CarParts(28,4,3,2);
+	    ServiceCarPartsMapper carpartsmapper = new ServiceCarPartsMapper();
 //	    carpartsmapper.insertEntity(cparts);
+	    carpartsmapper.deleteEntity(28);
 //	    carpartsmapper.getALLEntities();
 	   	    
 	    

@@ -27,13 +27,13 @@ public class ServiceCarsMapper implements ICarsMapper {
 	}
 	public void updateEntity(Cars cars){
 		SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();	
-		session.update("updateEntity",cars);
+		session.update("updateCars",cars);
 		session.commit();
 		session.close();
 	}
 	public void deleteEntity(long carsListId){
 		SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();	
-		session.update("deleteEntity",carsListId);
+		session.update("deleteCars",carsListId);
 		session.commit();
 		session.close();
 	}

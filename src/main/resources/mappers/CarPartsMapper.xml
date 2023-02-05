@@ -18,7 +18,7 @@
   		<insert id="insertCarParts" parameterType="carParts" keyProperty="carPartsId" useGeneratedKeys="false">
   				INSERT INTO carparts VALUES(#{carPartsId}, #{engineId}, #{gearboxId}, #{tireId})
   		</insert>
-  		<update id="updateEntity" >
+  		<update id="updateCarParts" >
   			UPDATE carparts SET 
   			car_parts_id=#{carPartsId},
   			engine_id=#{engineId},
@@ -26,7 +26,7 @@
   			tire_id=#{consumption},
   			WHERE engine_id = #{tireId}
   		</update>
-  		<delete id="deleteEntity">
+  		<delete id="deleteCarParts">
   			DELETE FROM carparts WHERE car_parts_id=#{carPartsId}
   		</delete>
   </mapper>

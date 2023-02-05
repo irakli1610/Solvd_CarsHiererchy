@@ -19,7 +19,7 @@
   		 		<insert id="insertEntity" parameterType="heatingcooling" keyProperty="heatingCoolingId" useGeneratedKeys="false">
   				INSERT INTO HeatingCooling VALUES(#{persheatingCoolingIdonId}, #{steeringWheelHeating}, #{interierHeating}, #{age},#{interierCooling})
   		</insert>
-  		<update id="updateEntity" >
+  		<update id="updateHeatingCooling" >
   			UPDATE heatingcooling SET heating_cooling_id=#{heatingCoolingId},
   			steering_wheel_heating=#{steeringWheelHeating},
   			seats_heating=#{seatsHeating},
@@ -27,7 +27,7 @@
   			interier_cooling=#{interierCooling} 
   			WHERE heating_cooling_id = #{heatingCoolingId}
   		</update>
-  		<delete id="deleteEntity">
+  		<delete id="deleteHeatingCooling">
   			DELETE FROM heatingcooling WHERE heating_cooling_id=#{heatingCoolingId}
   		</delete>
   </mapper>  

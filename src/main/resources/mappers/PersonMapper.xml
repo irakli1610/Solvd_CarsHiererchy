@@ -16,10 +16,10 @@
   		<insert id="insertPerson" parameterType="Person" keyProperty="personId" useGeneratedKeys="false">
   				INSERT INTO person VALUES(#{personId}, #{firstName}, #{lastName}, #{age})
   		</insert>
-  		<update id="updateEntity" >
+  		<update id="updatePerson" >
   			UPDATE person SET person_id=#{personId},first_name=#{firstName},last_name=#{lastName},age=#{age} WHERE person_id = #{personId}
   		</update>
-  		<delete id="deleteEntity">
+  		<delete id="deletePerson">
   			DELETE FROM person WHERE person_id=#{personId}
   		</delete>
   		

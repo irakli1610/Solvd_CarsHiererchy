@@ -17,14 +17,14 @@
   		<insert id="insertGearBox" parameterType="gearbox" keyProperty="gearboxId" useGeneratedKeys="false">
   				INSERT INTO gearbox VALUES(#{gearboxId}, #{numberOfGears}, #{typeOfGearbox})
   		</insert>
-  		<update id="updateEntity" >
+  		<update id="updateGearBox" >
   			UPDATE gearbox SET 
   			gearbox_id=#{gearboxId},
   			number_of_gears=#{numberOfGears},
   			type_of_gearbox=#{typeOfGearbox},
   			WHERE gearbox_id = #{gearboxId}
   		</update>
-  		<delete id="deleteEntity">
+  		<delete id="deleteGearBox">
   			DELETE FROM gearbox WHERE gearbox_id=#{gearboxId}
   		</delete>
   </mapper>
